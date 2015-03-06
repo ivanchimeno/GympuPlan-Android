@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".VPlanViewerActivity">
+    <item android:id="@+id/action_refresh" android:title="Reload Schedules" android:orderInCategory="100"
+        app:showAsAction="always" android:icon="@mipmap/ic_action_refresh" />
+    <item android:id="@+id/action_switch_schedule" android:title="Switch Schedules" android:orderInCategory="100"
+        app:showAsAction="always" android:icon="@android:drawable/ic_menu_set_as" />
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="always" android:icon="@mipmap/ic_action_settings" />
+</menu>

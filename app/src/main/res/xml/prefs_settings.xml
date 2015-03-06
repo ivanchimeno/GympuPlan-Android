@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+        android:summary="Username and password information"
+        android:title="Login information" >
+        <Preference
+            android:key="username"
+            android:summary="Username currently not available"
+            android:title="Username" />
+        <Preference
+            android:key="password"
+            android:summary="The password will not be shown."
+            android:title="Password" />
+        <Preference
+            android:key="display_name"
+            android:summary="Password currently not available"
+            android:title="Display Name" />
+        <Preference
+            android:key="group"
+            android:summary="Group currently not available"
+            android:title="Group" />
+        <Preference
+            android:key="grade"
+            android:summary="Grade currently not available"
+            android:title="Grade" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:summary="Username and password information"
+        android:title="Settings" >
+        <CheckBoxPreference
+            android:key="checkBox"
+            android:defaultValue="true"
+            android:summary="Account information will be erased when you close the application."
+            android:title="Keep me logged in" />
+    </PreferenceCategory>
+</PreferenceScreen>

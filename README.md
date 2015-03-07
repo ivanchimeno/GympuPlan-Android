@@ -4,7 +4,7 @@ An unofficial simple Android subtitute viewer application for Otfried-Preußler-
 GympuPlan is an unofficial and simple Android application for viewing teacher substitute plans at the Otfried-Preußler-Gymnasium Pullach in Munich, Germany. A wrapper class is provided to help young students implement their own substitute plan viewer application.
 
 ##### Application Download
-The application is available for free on  the Google Play Store [here](https://play.google.com/store/apps/details?id=com.gympuplan&hl=en).
+The application is available for free on  the Google Play Store [here](https://play.google.com/store/apps/details?id=com.ivanchimeno.gympuplan).
 
 ##### Importing the Project
 The project was created using the [Android Studio](http://developer.android.com/sdk/index.html) so can directly be imported by selecting "Import Project" in the Quick Start menu.

@@ -62,8 +62,8 @@ public class GympuXmlParser
             if (name.equals("GymPuLanSessionID"))
                 gympuResponse.setGympuLanSessionId(ReadTagValue(parser, "GymPuLanSessionID"));
 
-            if (name.equals("GymPuLanVPlanId"))
-                gympuResponse.setGympuLanVPlanId(ReadTagValue(parser, "GymPuLanVPlanId"));
+            if (name.equals("GymPuLanVPlanID"))
+                gympuResponse.setGympuLanVPlanId(ReadTagValue(parser, "GymPuLanVPlanID"));
 
             if (name.equals("GymPuLanVPlanLastUpdate"))
                 gympuResponse.setGympuLanVPlanLastUpdate(ReadTagValue(parser, "GymPuLanVPlanLastUpdate"));
